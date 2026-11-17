@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.db
+*.db-wal
+*.db-shm
+
+# Extracted copies of the recordings; the tarballs are the source of truth.
+data/*/
+# The assignment text is not part of the solution.
+*.pdf
+.DS_Store
+.idea/
+__MACOSX/
